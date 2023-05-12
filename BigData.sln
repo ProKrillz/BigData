@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigData", "BigData\BigData.csproj", "{A75E741C-43AD-4E2D-9473-CBEEBDDF50CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStorage", "DataStorage\DataStorage.csproj", "{03F71BF6-7AD9-4E32-BB80-8B1BA71BDC60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A75E741C-43AD-4E2D-9473-CBEEBDDF50CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75E741C-43AD-4E2D-9473-CBEEBDDF50CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75E741C-43AD-4E2D-9473-CBEEBDDF50CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75E741C-43AD-4E2D-9473-CBEEBDDF50CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F71BF6-7AD9-4E32-BB80-8B1BA71BDC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F71BF6-7AD9-4E32-BB80-8B1BA71BDC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F71BF6-7AD9-4E32-BB80-8B1BA71BDC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F71BF6-7AD9-4E32-BB80-8B1BA71BDC60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E3277CA-646A-4DB5-88F7-02DE9433D963}
+	EndGlobalSection
+EndGlobal
