@@ -29,6 +29,7 @@ https://confluence.govcloud.dk/pages/viewpage.action?pageId=26476616
 Struct database for repeated data.
 
 Create entity for stations and Fk in propeties
+
 Create entity for parameter and Fk in propeties
 
 Some data updates twize a day, some every hours and most every 10 min and program safe data every 10 min so make so it skips hour data and twize data when its in database.
