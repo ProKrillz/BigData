@@ -2,6 +2,8 @@
 
 ## Description
 
+This project is for shcool.
+
 Call API (https://confluence.govcloud.dk/display/FDAPI), map data and save on sql database.
 
 Technologies: 
