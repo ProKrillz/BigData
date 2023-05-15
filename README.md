@@ -50,4 +50,5 @@ Mapping
 
 ## ErDiagram
 
-![image](https://github.com/ProKrillz/BigData/assets/93183911/73fdf035-dbde-4d49-9ce1-80b5db01a0b6)
+![image](https://github.com/ProKrillz/BigData/assets/93183911/ed8cde27-552a-4875-be07-c23878ca5354)
+
