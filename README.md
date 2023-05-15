@@ -26,8 +26,6 @@ https://confluence.govcloud.dk/pages/viewpage.action?pageId=26476616
 
 ## Storage
 
-Total space 16 MB
-
 One api call save around 0,650 MB
 
 ## Todo
