@@ -49,3 +49,7 @@ Struct database for repeated data.
 Mapping
 
 * Create new mapping after database struct is done
+
+
+
+![image](https://github.com/ProKrillz/BigData/assets/93183911/73fdf035-dbde-4d49-9ce1-80b5db01a0b6)
