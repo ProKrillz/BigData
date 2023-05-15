@@ -32,7 +32,7 @@ One api call save around 0,650 MB
 
 ## Todo
 
-Struct database for repeated data.
+* Struct database for repeated data.
 
 Create entity for stations and Fk in propeties
 
@@ -45,3 +45,7 @@ Create entity for type and Fk to all entity with type
 Create entity for rel and Fk in link
 
 Some data updates twize a day, some every hours and most every 10 min and program safe data every 10 min so make so it skips hour data and twize data when its in database.
+
+* Mapping
+
+Create new mapping after database struct is done
