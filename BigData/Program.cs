@@ -4,6 +4,7 @@ using DataStorage.Entities;
 using System.Net.Http.Json;
 
 HttpClient client = new HttpClient();
+Context context = new Context();
 while (true)
 {
     string tenMinData = "https://dmigw.govcloud.dk/v2/metObs/collections/observation/items?period=latest-10-minutes&api-key=da77e62c-9536-4bb9-a04a-9f1ad7e109f3";
@@ -43,7 +44,6 @@ while (true)
             }
         }).ToList()
     };
-    Context context = new Context();
     context.Add(RE);
     context.SaveChanges();
     Console.WriteLine(json);
