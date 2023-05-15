@@ -34,7 +34,8 @@ namespace DataStorage
 
             modelBuilder.Entity<RootEntity>()
                 .Property(r => r.Type)
-                .HasColumnName("type");
+                .HasColumnName("type")
+                .HasMaxLength(25);
 
             modelBuilder.Entity<RootEntity>()
                 .Property(r => r.TimeStamp)
@@ -57,12 +58,13 @@ namespace DataStorage
 
             modelBuilder.Entity<FeatureEntity>()
                 .Property(f => f.FeatureNumber)
-                .HasColumnName("fearture_number");
+                .HasColumnName("fearture_number")
+                .HasMaxLength(36);
                 
             modelBuilder.Entity<FeatureEntity>()
                 .Property(f => f.Type)
                 .HasColumnName("type")
-                .HasMaxLength(25);
+                .HasMaxLength(10);
 
             #endregion
 
@@ -77,12 +79,14 @@ namespace DataStorage
             
             modelBuilder.Entity<LinkEntity>()
               .Property(l => l.Title)
-              .HasColumnName("title");
+              .HasColumnName("title")
+              .HasMaxLength(50);
+
 
             modelBuilder.Entity<LinkEntity>()
               .Property(l => l.Type)
               .HasColumnName("type")
-              .HasMaxLength(25);
+              .HasMaxLength(50);
 
             modelBuilder.Entity<LinkEntity>()
                 .Property(l => l.Href)
@@ -90,7 +94,8 @@ namespace DataStorage
 
             modelBuilder.Entity<LinkEntity>()
               .Property(l => l.Rel)
-              .HasColumnName("rel");
+              .HasColumnName("rel")
+              .HasMaxLength(5);
 
             #endregion
 
@@ -99,11 +104,14 @@ namespace DataStorage
             modelBuilder.Entity<PropertiesEntity>()
                 .ToTable("Properti");
 
-            modelBuilder.Entity<PropertiesEntity>().HasKey(p => p.PropertiesId).HasName("propeti_id");
+            modelBuilder.Entity<PropertiesEntity>()
+                .HasKey(p => p.PropertiesId)
+                .HasName("propeti_id");
 
             modelBuilder.Entity<PropertiesEntity>()
                 .Property(p => p.ParameterNumber)
-                .HasColumnName("parameter_number");
+                .HasColumnName("parameter_number")
+                .HasMaxLength(25);
     
             modelBuilder.Entity<PropertiesEntity>()
                 .Property(p => p.Created)
@@ -115,11 +123,13 @@ namespace DataStorage
 
             modelBuilder.Entity<PropertiesEntity>()
                 .Property(p => p.StationNumber)
-                .HasColumnName("station_number");
+                .HasColumnName("station_number")
+                .HasMaxLength(5);
 
             modelBuilder.Entity<PropertiesEntity>()
                 .Property(p => p.Value)
-                .HasColumnName("value");
+                .HasColumnName("value")
+                .HasMaxLength(10);
 
             #endregion
 
@@ -134,7 +144,8 @@ namespace DataStorage
 
             modelBuilder.Entity<GeometryEntity>()
                 .Property(g => g.Type)
-                .HasColumnName("type");
+                .HasColumnName("type")
+                .HasMaxLength(10);
 
             #endregion
 
